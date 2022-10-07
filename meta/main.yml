@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: rust
   author: Benjamin Arntzen
   description: Installs Rust and Cargo! (Fork of work by Karl Hepworth)
   license: MIT
