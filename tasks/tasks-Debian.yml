@@ -4,6 +4,8 @@
   apt:
     update_cache: yes
     cache_valid_time: 600
+  become: true
+  become_user: root
 
 - name: "Rust | Install dependencies"
   apt:
@@ -11,3 +13,5 @@
       - curl
       - gcc
     state: present
+  become: true
+  become_user: root
